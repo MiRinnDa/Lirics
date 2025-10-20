@@ -9,7 +9,7 @@ app.use(cors());
 app.use(express.json());
 
 // Укажите путь к вашей БД из DBeaver
-const dbPath = '';
+const dbPath = 'C:\\Users\\m7634\\OneDrive\\Рабочий стол\\forLir.db';
 
 const db = new sqlite3.Database(dbPath, (err) => {
     if (err) {
